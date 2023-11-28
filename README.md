@@ -1,6 +1,9 @@
 Coffee Editorial Design
 
-**Note:** This is a work in progress. 
 
-<blockquote> 
 Stuff about coffee 
+
+
+citations 
+[Coffee](https://en.wikipedia.org/wiki/Coffee)
+[Favicon.io](https://favicon.io/favicon-converter/)
