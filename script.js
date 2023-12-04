@@ -37,8 +37,3 @@ ScrollTrigger.defaults({
   });
   
   // Panel Six
-  gsap.to(".six", {
-    scrollTrigger: "six",
-    translateX: 0,
-    duration: 5
-  });
