@@ -1,23 +1,93 @@
+@import "https://unpkg.com/open-props";
+@import url('chillax.css');
+
+html,
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  height: 100%;
+  /* -webkit-overflow-scrolling: touch; */
+  /* overflow-scrolling: touch; */
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Panel Defaults */
 .panel {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 24px;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  box-sizing: border-box;
+
+  padding: 3em;
+}
+
+/* Container for Background Images  */
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background-image: url(https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2022-08/sunlight_through_ocean_surface_aspot_AdobeStock.jpg?h=d1cb525d&itok=vMgVREDe);
+  background-image: cover;
+  opacity: 0.5;
+}
+
+.two {
+  background-color: #15bcfa;
+
+ 
+}
+
+.three {
+  background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230711154800-01-card-shark-attack-capitals.jpg?c=original);
+}
+
+.four {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/QfpYiWt35GZfU2Gd7pztQ8.png);
+  opacity: 0.5;
+}
+
+.five {
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=673x10000:format=jpg/path/sd2b16d54041001cd/image/i69cc688c7a757f9a/version/1472986151/image.jpg);
+  filter: saturate(0);
+}
+
+.six {
+  background-image: url(https://images.newscientist.com/wp-content/uploads/2019/06/24135000/nationalgeographic_1159161.jpg?crop=4:3,smart&width=1200&height=900&upscale=true);
+  opacity: 0.5;
+  /* font-color: white; */
+}
+
+p {
+  width: 80%;
+  line-height: 2.5;
+  font-size: 20px;
+}
+
+.red {
+  color: red;
+}
+
+.white {
   color: white;
-  transition: background-color 0.5s;
 }
 
-.panel:nth-child(odd) {
-  background: #3498db; /* Light blue */
-}
-
-.panel:nth-child(even) {
-  background: #2980b9; /* Dark blue */
+h1 {
+  font-size: 30px;
 }
