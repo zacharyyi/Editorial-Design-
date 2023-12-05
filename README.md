@@ -1,7 +1,7 @@
-Coffee Editorial Design
+ Editorial Design
 
 
-Stuff about coffee 
+All about Sharks
 
 
 citations 
