@@ -1,10 +1,14 @@
 @import "https://unpkg.com/open-props";
 @import url('chillax.css');
+@import "open-props/masks/edges";
+@import "open-props/src/props.masks.edges.css";
+@import "open-props/masks.edges.min.css";
+
 
 html,
 body {
   margin: 0;
-  height: 100%;
+  height: 100%;font-family: 'Chillax-Bold';
   /* -webkit-overflow-scrolling: touch; */
   /* overflow-scrolling: touch; */
 }
@@ -49,7 +53,9 @@ body {
 }
 
 .two {
-  background-color: #15bcfa;
+  background: var(--gradient-7);
+
+
 
  
 }
@@ -77,7 +83,7 @@ body {
 p {
   width: 80%;
   line-height: 2.5;
-  font-size: 20px;
+  font-size: 23px; 
 }
 
 .red {
