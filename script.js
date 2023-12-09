@@ -1,6 +1,3 @@
-console.log('😀');
-
-// defaultsgsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollTrigger);
 
 let getRatio = (el) =>
